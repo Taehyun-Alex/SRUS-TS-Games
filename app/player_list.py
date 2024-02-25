@@ -74,4 +74,25 @@ class PlayerList:
                 return
             current = current.get_next()
         print(
-            f"The list does not contain a node with key {key}.")  # This line only executes if the while loop did not find the node with the passed key
+            f"The list does not contain a node with key {key}.")  # This line only executes if the while loop did not
+        # find the node with the passed key
+
+    def display(self, forward=True):
+        if self.is_empty():
+            print("The list is empty.")
+            return
+
+        # Traverse the linked list again to display the values
+        if forward:
+            current = self._head
+            print("Printing values from left to right")
+            while current is not None:
+                print(current.get_player())
+                current = current.get_next()
+        else:
+            current = self._tail
+            print("Printing values from right to left")
+            while current is not None:
+                print(current.get_player())
+                current = current.get_previous()
+
