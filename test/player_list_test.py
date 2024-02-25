@@ -49,6 +49,13 @@ class TestInsertion(unittest.TestCase):
 
         self.assertEqual(self.player_list._tail._player, self.player_1)
 
+    def test_delete_with_key_removes_item_with_key(self):
+        self.player_list.insert_at_tail(self.player_node_1)
+        self.player_list.insert_at_tail(self.player_node_2)
+        self.player_list.delete_with_key(self.player_node_2)
+
+        self.assertEqual(self.player_list._head._player, self.player_1)
+
 
 if __name__ == "__main__":
     unittest.main()
