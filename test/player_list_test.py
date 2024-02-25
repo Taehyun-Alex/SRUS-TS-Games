@@ -29,6 +29,12 @@ class TestInsertion(unittest.TestCase):
 
         self.assertEqual(self.player_list._tail._player, self.player_1)
 
+    def test_insert_at_tail_when_non_empty_list(self):
+        self.player_list.insert_at_tail(self.player_node_1)
+        self.player_list.insert_at_tail(self.player_node_2)
+
+        self.assertEqual(self.player_list._tail._player, self.player_2)
+
 
 if __name__ == "__main__":
     unittest.main()
