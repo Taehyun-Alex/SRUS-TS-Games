@@ -27,7 +27,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for player_list_test.TestInsertion.test_insert_node_when_non_empty_list">
+  <component name="RunManager" selected="Python tests.Unittests for player_list_test.TestInsertion.test_tail_holds_value_of_first_item_added_when_insert_node_at_head">
     <configuration name="Unittests for player_list_test.TestInsertion.test_insert_node_when_empty_list" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="SRUS-TS-Games" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -56,7 +56,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for player_test.TestTheProperties" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for player_list_test.TestInsertion.test_tail_holds_value_of_first_item_added_when_insert_node_at_head" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="SRUS-TS-Games" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -66,11 +66,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;player_test.TestTheProperties&quot;" />
+      <option name="_new_target" value="&quot;player_list_test.TestInsertion.test_tail_holds_value_of_first_item_added_when_insert_node_at_head&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for player_test.TestTheProperties.test_player_attribute_type" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for player_list_test.TestInsertion.test_tail_is_remain_None_when_insert_node_at_head" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="SRUS-TS-Games" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -80,7 +80,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;player_test.TestTheProperties.test_player_attribute_type&quot;" />
+      <option name="_new_target" value="&quot;player_list_test.TestInsertion.test_tail_is_remain_None_when_insert_node_at_head&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -100,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for player_list_test.TestInsertion.test_tail_holds_value_of_first_item_added_when_insert_node_at_head" />
+        <item itemvalue="Python tests.Unittests for player_list_test.TestInsertion.test_tail_is_remain_None_when_insert_node_at_head" />
         <item itemvalue="Python tests.Unittests for player_list_test.TestInsertion.test_insert_node_when_non_empty_list" />
         <item itemvalue="Python tests.Unittests for player_list_test.TestInsertion.test_insert_node_when_empty_list" />
         <item itemvalue="Python tests.Unittests in player_test.py" />
-        <item itemvalue="Python tests.Unittests for player_test.TestTheProperties.test_player_attribute_type" />
-        <item itemvalue="Python tests.Unittests for player_test.TestTheProperties" />
       </list>
     </recent_temporary>
   </component>
@@ -122,22 +122,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="675" height="227" key="GridCell.Tab.0.bottom" timestamp="1708821735691">
+    <state width="675" height="227" key="GridCell.Tab.0.bottom" timestamp="1708822798031">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="675" height="227" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1708821735691" />
-    <state width="675" height="227" key="GridCell.Tab.0.center" timestamp="1708821735690">
+    <state width="675" height="227" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1708822798031" />
+    <state width="675" height="227" key="GridCell.Tab.0.center" timestamp="1708822798031">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="675" height="227" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1708821735690" />
-    <state width="675" height="227" key="GridCell.Tab.0.left" timestamp="1708821735690">
+    <state width="675" height="227" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1708822798031" />
+    <state width="675" height="227" key="GridCell.Tab.0.left" timestamp="1708822798030">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="675" height="227" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1708821735690" />
-    <state width="675" height="227" key="GridCell.Tab.0.right" timestamp="1708821735691">
+    <state width="675" height="227" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1708822798030" />
+    <state width="675" height="227" key="GridCell.Tab.0.right" timestamp="1708822798031">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="675" height="227" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1708821735691" />
+    <state width="675" height="227" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1708822798031" />
     <state width="675" height="282" key="GridCell.Tab.1.bottom" timestamp="1708820193759">
       <screen x="0" y="25" width="1440" height="875" />
     </state>

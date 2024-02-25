@@ -12,16 +12,22 @@ class TestInsertion(unittest.TestCase):
         self.player_2 = Player("104", "Kayla")
         self.player_node_2 = PlayerNode(self.player_2)
 
-    def test_insert_node_when_empty_list(self):
-        self.player_list.insert(self.player_node_1)
+    def test_insert_node_at_head_when_empty_list(self):
+        self.player_list.insert_at_head(self.player_node_1)
         self.assertEqual(self.player_1, self.player_list._head._player)
 
-    def test_insert_node_when_non_empty_list(self):
-        self.player_list.insert(self.player_node_1)
-        self.player_list.insert(self.player_node_2)
+    def test_insert_node_at_head_when_non_empty_list(self):
+        self.player_list.insert_at_head(self.player_node_1)
+        self.player_list.insert_at_head(self.player_node_2)
 
         self.assertEqual(self.player_list._head._player, self.player_2)
         self.assertEqual(self.player_list._head._next._player, self.player_1)
+
+    def test_tail_holds_value_of_first_item_added_when_insert_node_at_head(self):
+        self.player_list.insert_at_head(self.player_node_1)
+        self.player_list.insert_at_head(self.player_node_2)
+
+        self.assertEqual(self.player_list._tail._player, self.player_1)
 
 
 if __name__ == "__main__":
