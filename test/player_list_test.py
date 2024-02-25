@@ -35,6 +35,20 @@ class TestInsertion(unittest.TestCase):
 
         self.assertEqual(self.player_list._tail._player, self.player_2)
 
+    def test_delete_from_head_removes_item_from_head(self):
+        self.player_list.insert_at_head(self.player_node_1)
+        self.player_list.insert_at_head(self.player_node_2)
+        self.player_list.delete_at_head()
+
+        self.assertEqual(self.player_list._head._player, self.player_1)
+
+    def test_delete_from_tail_removes_item_from_tail(self):
+        self.player_list.insert_at_tail(self.player_node_1)
+        self.player_list.insert_at_tail(self.player_node_2)
+        self.player_list.delete_at_tail()
+
+        self.assertEqual(self.player_list._tail._player, self.player_1)
+
 
 if __name__ == "__main__":
     unittest.main()
