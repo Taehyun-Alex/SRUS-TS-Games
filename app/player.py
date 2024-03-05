@@ -1,5 +1,6 @@
 from argon2 import PasswordHasher
 
+
 class Player:
     def __init__(self, id: str, player_name: str):
         self.id = id
