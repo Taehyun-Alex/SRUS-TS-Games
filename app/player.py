@@ -43,12 +43,22 @@ class Player:
         if self.ph.verify(self._hashed_password, password_to_verify):
             return True
         return False
+
     @staticmethod
-    def sort_in_descending_order(lst):
-        # write quick sort algorithm in descending order
+    def radix_sort_in_descending_order(lst):
+        max_num = max(lst)
+        max_digits = len(str(max_num))
 
+        for digit_place in range(max_digits):
+            buckets = [[] for _ in range(10)]
 
+            for num in lst:
+                digit = (num // (10 ** digit_place)) % 10
+                buckets[digit].append(num)
 
+            lst = [num for bucket in reversed(buckets) for num in bucket]
+
+        return lst
 
 
 player_1 = Player("100", "John")

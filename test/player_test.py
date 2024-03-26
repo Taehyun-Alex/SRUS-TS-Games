@@ -45,5 +45,26 @@ class TestScoreComparisonOperators(unittest.TestCase):
         self.assertEqual(self.player_3 < self.player_1, True)
 
 
+class TestRadixSortReversedUsingScore(unittest.TestCase):
+
+    def setUp(self):
+        self.player_1 = Player("105", "Michael", 12)
+        self.player_2 = Player("106", "Layla", 4)
+        self.player_3 = Player("107", "Bec", 9)
+        self.player_4 = Player("108", "Sydney", 4)
+
+    def test_radix_sort_reversed_no_duplicates(self):
+        self.assertEqual([12, 9, 4],
+                         Player.radix_sort_in_descending_order(
+                             [self.player_1.get_score(), self.player_2.get_score(), self.player_3.get_score()]
+                         ))
+
+    def test_radix_sort_reversed_with_duplicate_values(self):
+        self.assertEqual([12, 4, 4],
+                         Player.radix_sort_in_descending_order(
+                             [self.player_1.get_score(), self.player_2.get_score(), self.player_4.get_score()]
+                         ))
+
+
 if __name__ == "__main__":
     unittest.main()
