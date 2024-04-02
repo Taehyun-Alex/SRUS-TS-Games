@@ -1,8 +1,8 @@
 class PlayerBNode:
-    def __init__(self, player, left=None, right=None):
+    def __init__(self, player):
         self._player = player
-        self._left = left
-        self._right = right
+        self._left = None
+        self._right = None
 
     @property
     def player(self):
