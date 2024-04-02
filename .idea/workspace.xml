@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ecbb33a-39f7-42fc-abda-a1c78b5c4caa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/player_bst.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -167,7 +169,7 @@
       <workItem from="1711240550020" duration="2684000" />
       <workItem from="1711290529286" duration="20000" />
       <workItem from="1711408538949" duration="3051000" />
-      <workItem from="1712037383337" duration="850000" />
+      <workItem from="1712037383337" duration="2049000" />
     </task>
     <servers />
   </component>
