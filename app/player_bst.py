@@ -25,40 +25,12 @@ class PlayerBST:
             else:
                 self._root = PlayerBNode(player)
 
-    def in_order_traversal(self, node):
-        if node is not None:
-            if node.left is not None:
-                self.in_order_traversal(node.left)
-            print(node.player.player_name)
-            if node.right is not None:
-                self.in_order_traversal(node.right)
-
-
 
 bst = PlayerBST()
+bst.insert(Player("101", "Alex"))
+bst.insert(Player("102", "Ben"))
+bst.insert(Player("103", "Charlie"))
+bst.insert(Player("104", "Aaa"))
 
-# Insert 10 players
-players = [
-    Player("101", "Alex"),
-    Player("102", "Ben"),
-    Player("103", "Charlie"),
-    Player("104", "David"),
-    Player("105", "Emma"),
-    Player("106", "Frank"),
-    Player("107", "George"),
-    Player("108", "Hannah"),
-    Player("109", "Ian"),
-    Player("110", "Jane")
-]
-
-for player in players:
-    bst.insert(player)
-
-# Print the players in sorted order (in-order traversal)
-bst.in_order_traversal(bst.root)
-
-# bst = PlayerBST()
-# bst.insert(Player("101", "Alex"))
-# bst.insert(Player("102", "Ben"))
-# bst.insert(Player("103", "Charlie"))
-# print(bst.root.right.root.right.root.player.player_name)
+print(bst.root.right.root.right.root.player.player_name)
+print(bst.root.left.root.player.player_name)
