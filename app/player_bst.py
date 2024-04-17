@@ -37,18 +37,16 @@ class PlayerBST:
             return self._search_recursive(self._root, name)
 
     def _search_recursive(self, node, name):
-        if node.player.player_name > name:
-            if node.left.player.player_name == name:
-                return True
-            else:
-                self._search_recursive(node.left, name)
-        elif node.player.player_name < name:
-            if node.right.player.player_name == name:
-                return True
-            else:
-                self._search_recursive(node.right, name)
-        else:
+        if node is None:
             return False
+        if node.player.player_name == name:
+            return True
+        else:
+            if node.player.player_name > name:
+                return self._search_recursive(node.left, name)
+            elif node.player.player_name < name:
+                return self._search_recursive(node.right, name)
+
 
 bst = PlayerBST()
 
@@ -58,4 +56,4 @@ bst.insert(Player("102", "Ben"))
 bst.insert(Player("103", "Mike"))
 bst.insert(Player("104", "Kate"))
 
-print(bst.search("Mike"))
+print(bst.search("Kate"))

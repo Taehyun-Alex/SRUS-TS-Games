@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ecbb33a-39f7-42fc-abda-a1c78b5c4caa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/SRUS-TS-Games.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SRUS-TS-Games.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/player_bst.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/player_bst.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,29 +34,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for player_bst_test.TestBstInsertion.executor": "Run",
-    "Python tests.Python tests for player_bst_test.TestBstInsertion.test_bst_insertion.executor": "Run",
-    "Python tests.Python tests for player_list_test.TestInsertion.test_insert_node_at_head_when_non_empty_list.executor": "Run",
-    "Python tests.Python tests for player_test.TestRadixSortReversedUsingScore.test_radix_sort_reversed_no_duplicates.executor": "Run",
-    "Python tests.Python tests in player_bst_test.py.executor": "Run",
-    "Python.player.executor": "Run",
-    "Python.player_bst.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/20101299/source/repos/SRUS-TS-Games",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for player_bst_test.TestBstInsertion.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for player_bst_test.TestBstInsertion.test_bst_insertion.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for player_list_test.TestInsertion.test_insert_node_at_head_when_non_empty_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for player_test.TestRadixSortReversedUsingScore.test_radix_sort_reversed_no_duplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in player_bst_test.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.player.executor&quot;: &quot;Run&quot;,
+    &quot;Python.player_bst.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/source/repos/SRUS-TS-Games&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="SRUS-TS-Games" is-module-sdk="true">
@@ -65,7 +68,6 @@
   <component name="RunManager" selected="Python.player_bst">
     <configuration name="player_bst" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SRUS-TS-Games" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -88,7 +90,6 @@
     </configuration>
     <configuration name="Python tests for player_bst_test.TestBstInsertion" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SRUS-TS-Games" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -104,7 +105,6 @@
     </configuration>
     <configuration name="Python tests for player_bst_test.TestBstInsertion.test_bst_insertion" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SRUS-TS-Games" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -120,7 +120,6 @@
     </configuration>
     <configuration name="Python tests for player_list_test.TestInsertion.test_insert_node_at_head_when_non_empty_list" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SRUS-TS-Games" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -136,7 +135,6 @@
     </configuration>
     <configuration name="Python tests in player_bst_test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SRUS-TS-Games" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -190,6 +188,8 @@
       <workItem from="1713320872657" duration="3364000" />
       <workItem from="1713324593783" duration="392000" />
       <workItem from="1713324993543" duration="4106000" />
+      <workItem from="1713346946742" duration="13000" />
+      <workItem from="1713346961051" duration="1649000" />
     </task>
     <servers />
   </component>
@@ -197,10 +197,10 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/player_node_py$player_bst.coverage" NAME="player_bst Coverage Results" MODIFIED="1713329106803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
-    <SUITE FILE_PATH="coverage/SRUS_TS_Games$Unittests_for_player_test_TestPasswordVerification_test_password_verification.coverage" NAME="Unittests for player_test.TestPasswordVerification.test_password_verification Coverage Results" MODIFIED="1711242247652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/player_node_py$.coverage" NAME=" Coverage Results" MODIFIED="1713326960608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/SRUS_TS_Games$.coverage" NAME=" Coverage Results" MODIFIED="1712037605490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/SRUS_TS_Games$Unittests_for_player_test_TestPasswordVerification_test_password_verification.coverage" NAME="Unittests for player_test.TestPasswordVerification.test_password_verification Coverage Results" MODIFIED="1711242247652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/SRUS_TS_Games$player.coverage" NAME="player Coverage Results" MODIFIED="1712037611277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/player_node_py$player_bst.coverage" NAME="player_bst Coverage Results" MODIFIED="1713348537177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
   </component>
 </project>
