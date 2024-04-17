@@ -14,16 +14,21 @@ class PlayerBST:
         if self._root is None:
             self._root = PlayerBNode(player)
         else:
-            if self._root.player.player_name > player.player_name:
-                if self._root.left is None:
-                    self._root.left = PlayerBST()  # Initialize left child as an empty PlayerBST object
-                self._root.left.insert(player)  # Insert player into the left subtree
-            elif self._root.player.player_name < player.player_name:
-                if self._root.right is None:
-                    self._root.right = PlayerBST()  # Initialize right child as an empty PlayerBST object
-                self._root.right.insert(player)  # Insert player into the right subtree
+            self._insert_recursive(player, self._root)
+
+    def _insert_recursive(self, player, node):
+        if node.player.player_name > player.player_name:
+            if node.left is None:
+                node.left = PlayerBNode(player)# Initialize left child as an empty PlayerBST object
             else:
-                self._root = PlayerBNode(player)
+                self._insert_recursive(player, node.left)  # Insert player into the left subtree
+        elif node.player.player_name < player.player_name:
+            if node.right is None:
+                node.right = PlayerBNode(player)  # Initialize right child as an empty PlayerBST object
+            else:
+                self._insert_recursive(player, node.right)  # Insert player into the right subtree
+        else:
+            node.player = player
 
 
 bst = PlayerBST()
@@ -32,5 +37,7 @@ bst.insert(Player("102", "Ben"))
 bst.insert(Player("103", "Charlie"))
 bst.insert(Player("104", "Aaa"))
 
-print(bst.root.right.root.right.root.player.player_name)
-print(bst.root.left.root.player.player_name)
+print(bst.root.player.player_name)
+
+print(bst.root.right.right.player.player_name)
+print(bst.root.left.player.player_name)

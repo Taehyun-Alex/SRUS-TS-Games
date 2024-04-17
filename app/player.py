@@ -60,9 +60,3 @@ class Player:
 
         return lst
 
-
-player_1 = Player("100", "John")
-player_2 = Player("101", "David")
-
-player_1.add_password("hello")
-print(player_1.verify_password("hello"))
