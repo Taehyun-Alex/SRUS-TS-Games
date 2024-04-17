@@ -28,16 +28,4 @@ class PlayerBST:
             else:
                 self._insert_recursive(player, node.right)  # Insert player into the right subtree
         else:
-            node.player = player
-
-
-bst = PlayerBST()
-bst.insert(Player("101", "Alex"))
-bst.insert(Player("102", "Ben"))
-bst.insert(Player("103", "Charlie"))
-bst.insert(Player("104", "Aaa"))
-
-print(bst.root.player.player_name)
-
-print(bst.root.right.right.player.player_name)
-print(bst.root.left.player.player_name)
+            node.player.player_name = player.player_name

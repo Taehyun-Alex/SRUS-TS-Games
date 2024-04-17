@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ecbb33a-39f7-42fc-abda-a1c78b5c4caa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/SRUS-TS-Games.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SRUS-TS-Games.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/player.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/player_bst.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/player_bst.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +35,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for player_bst_test.TestBstInsertion.executor": "Run",
+    "Python tests.Python tests for player_bst_test.TestBstInsertion.test_bst_insertion.executor": "Run",
+    "Python tests.Python tests for player_list_test.TestInsertion.test_insert_node_at_head_when_non_empty_list.executor": "Run",
     "Python tests.Python tests for player_test.TestRadixSortReversedUsingScore.test_radix_sort_reversed_no_duplicates.executor": "Run",
+    "Python tests.Python tests in player_bst_test.py.executor": "Run",
     "Python.player.executor": "Run",
     "Python.player_bst.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -51,30 +56,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.player_bst">
-    <configuration name="player" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SRUS-TS-Games" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/player.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="SRUS-TS-Games" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="SRUS-TS-Games" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for player_bst_test.TestBstInsertion.test_bst_insertion">
     <configuration name="player_bst" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SRUS-TS-Games" />
       <option name="ENV_FILES" value="" />
@@ -98,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for player_test.TestRadixSortReversedUsingScore" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for player_bst_test.TestBstInsertion" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SRUS-TS-Games" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,11 +100,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;player_test.TestRadixSortReversedUsingScore&quot;" />
+      <option name="_new_target" value="&quot;player_bst_test.TestBstInsertion&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for player_test.TestRadixSortReversedUsingScore.test_radix_sort_reversed_no_duplicates" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for player_bst_test.TestBstInsertion.test_bst_insertion" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SRUS-TS-Games" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,11 +116,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;player_test.TestRadixSortReversedUsingScore.test_radix_sort_reversed_no_duplicates&quot;" />
+      <option name="_new_target" value="&quot;player_bst_test.TestBstInsertion.test_bst_insertion&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for player_test.TestRadixSortReversedUsingScore.test_radix_sort_reversed_with_duplicate_values" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for player_list_test.TestInsertion.test_insert_node_at_head_when_non_empty_list" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SRUS-TS-Games" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,17 +132,33 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;player_test.TestRadixSortReversedUsingScore.test_radix_sort_reversed_with_duplicate_values&quot;" />
+      <option name="_new_target" value="&quot;player_list_test.TestInsertion.test_insert_node_at_head_when_non_empty_list&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in player_bst_test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="SRUS-TS-Games" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/player_bst_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for player_bst_test.TestBstInsertion.test_bst_insertion" />
+        <item itemvalue="Python tests.Python tests for player_bst_test.TestBstInsertion" />
+        <item itemvalue="Python tests.Python tests in player_bst_test.py" />
         <item itemvalue="Python.player_bst" />
-        <item itemvalue="Python.player" />
-        <item itemvalue="Python tests.Python tests for player_test.TestRadixSortReversedUsingScore.test_radix_sort_reversed_no_duplicates" />
-        <item itemvalue="Python tests.Python tests for player_test.TestRadixSortReversedUsingScore.test_radix_sort_reversed_with_duplicate_values" />
-        <item itemvalue="Python tests.Python tests for player_test.TestRadixSortReversedUsingScore" />
+        <item itemvalue="Python tests.Python tests for player_list_test.TestInsertion.test_insert_node_at_head_when_non_empty_list" />
       </list>
     </recent_temporary>
   </component>
@@ -184,6 +190,8 @@
       <workItem from="1712147046368" duration="5131000" />
       <workItem from="1713320856554" duration="10000" />
       <workItem from="1713320872657" duration="3364000" />
+      <workItem from="1713324593783" duration="392000" />
+      <workItem from="1713324993543" duration="1964000" />
     </task>
     <servers />
   </component>
@@ -191,8 +199,9 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/player_node_py$player_bst.coverage" NAME="player_bst Coverage Results" MODIFIED="1713324241499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/player_node_py$player_bst.coverage" NAME="player_bst Coverage Results" MODIFIED="1713325922895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/SRUS_TS_Games$Unittests_for_player_test_TestPasswordVerification_test_password_verification.coverage" NAME="Unittests for player_test.TestPasswordVerification.test_password_verification Coverage Results" MODIFIED="1711242247652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/player_node_py$.coverage" NAME=" Coverage Results" MODIFIED="1713326960608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/SRUS_TS_Games$.coverage" NAME=" Coverage Results" MODIFIED="1712037605490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/SRUS_TS_Games$player.coverage" NAME="player Coverage Results" MODIFIED="1712037611277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
   </component>
