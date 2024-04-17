@@ -29,3 +29,33 @@ class PlayerBST:
                 self._insert_recursive(player, node.right)  # Insert player into the right subtree
         else:
             node.player.player_name = player.player_name
+
+    def search(self, name):
+        if self._root is None or self._root == name:
+            return name
+        else:
+            return self._search_recursive(self._root, name)
+
+    def _search_recursive(self, node, name):
+        if node.player.player_name > name:
+            if node.left.player.player_name == name:
+                return True
+            else:
+                self._search_recursive(node.left, name)
+        elif node.player.player_name < name:
+            if node.right.player.player_name == name:
+                return True
+            else:
+                self._search_recursive(node.right, name)
+        else:
+            return False
+
+bst = PlayerBST()
+
+bst.insert(Player("100", "Charlie"))
+bst.insert(Player("101", "Alex"))
+bst.insert(Player("102", "Ben"))
+bst.insert(Player("103", "Mike"))
+bst.insert(Player("104", "Kate"))
+
+print(bst.search("Mike"))
