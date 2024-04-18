@@ -19,7 +19,7 @@ class PlayerBST:
     def _insert_recursive(self, player, node):
         if node.player.player_name > player.player_name:
             if node.left is None:
-                node.left = PlayerBNode(player)# Initialize left child as an empty PlayerBST object
+                node.left = PlayerBNode(player)  # Initialize left child as an empty PlayerBST object
             else:
                 self._insert_recursive(player, node.left)  # Insert player into the left subtree
         elif node.player.player_name < player.player_name:
@@ -47,6 +47,37 @@ class PlayerBST:
             elif node.player.player_name < name:
                 return self._search_recursive(node.right, name)
 
+    def sorted_list_from_bst(self):
+        def inorder_traversal(node, lst):
+            if node is not None:
+                inorder_traversal(node.left, lst)
+                lst.append(node.player)
+                inorder_traversal(node.right, lst)
+
+        sorted_list = []
+        inorder_traversal(self.root, sorted_list)
+        return sorted_list  # returns a list of objects
+
+    def print_sorted_list_of_objects(self):
+        sorted_list = self.sorted_list_from_bst()
+        output = ""
+        for player in sorted_list:
+            output += f"ID: {player.id}, Name: {player.player_name}\n"
+        print(output)
+
+    # https://chat.openai.com/share/1e082742-2747-49af-8c1e-ac034322cf54
+    def construct_balanced_bst(self, sorted_list):
+        if not sorted_list:
+            return None
+
+        middle_index = len(sorted_list) // 2
+        middle_item = sorted_list[middle_index]
+        self._root = PlayerBNode(middle_item)
+        self._root.left = self.construct_balanced_bst(sorted_list[:middle_index])
+        self._root.right = self.construct_balanced_bst(sorted_list[middle_index + 1:])
+
+        return self._root
+
 
 bst = PlayerBST()
 
@@ -55,5 +86,8 @@ bst.insert(Player("101", "Alex"))
 bst.insert(Player("102", "Ben"))
 bst.insert(Player("103", "Mike"))
 bst.insert(Player("104", "Kate"))
+bst.insert(Player("105", "Peter"))
+bst.insert(Player("106", "Aaron"))
 
-print(bst.search("Kate"))
+print(bst.sorted_list_from_bst())
+print(bst.construct_balanced_bst(bst.sorted_list_from_bst()))
