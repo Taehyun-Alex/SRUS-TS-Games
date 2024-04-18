@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ecbb33a-39f7-42fc-abda-a1c78b5c4caa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/SRUS-TS-Games.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SRUS-TS-Games.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/player_bst.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/player_bst.py" afterDir="false" />
     </list>
@@ -192,7 +190,8 @@
       <workItem from="1713391462402" duration="6427000" />
       <workItem from="1713403264563" duration="769000" />
       <workItem from="1713429808206" duration="1985000" />
-      <workItem from="1713449299162" duration="7117000" />
+      <workItem from="1713449299162" duration="7228000" />
+      <workItem from="1713461478491" duration="90000" />
     </task>
     <servers />
   </component>
@@ -204,6 +203,6 @@
     <SUITE FILE_PATH="coverage/player_node_py$.coverage" NAME=" Coverage Results" MODIFIED="1713348884012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/SRUS_TS_Games$Unittests_for_player_test_TestPasswordVerification_test_password_verification.coverage" NAME="Unittests for player_test.TestPasswordVerification.test_password_verification Coverage Results" MODIFIED="1711242247652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/SRUS_TS_Games$player.coverage" NAME="player Coverage Results" MODIFIED="1712037611277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
-    <SUITE FILE_PATH="coverage/player_node_py$player_bst.coverage" NAME="player_bst Coverage Results" MODIFIED="1713460853295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/player_node_py$player_bst.coverage" NAME="player_bst Coverage Results" MODIFIED="1713461537971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
   </component>
 </project>
