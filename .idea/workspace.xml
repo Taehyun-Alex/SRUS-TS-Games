@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ecbb33a-39f7-42fc-abda-a1c78b5c4caa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/SRUS-TS-Games.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SRUS-TS-Games.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/player_bst.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/player_bst.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/word documents/Task-4.docx" beforeDir="false" afterPath="$PROJECT_DIR$/word documents/Task-4.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/player_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/player_node.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +47,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/source/repos/SRUS-TS-Games&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/SUNGTA/source/repos/SRUS-TS-Games&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -66,6 +68,7 @@
   <component name="RunManager" selected="Python.player_bst">
     <configuration name="player_bst" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SRUS-TS-Games" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -88,6 +91,7 @@
     </configuration>
     <configuration name="Python tests for player_bst_test.TestBstInsertion" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SRUS-TS-Games" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -103,6 +107,7 @@
     </configuration>
     <configuration name="Python tests for player_bst_test.TestBstInsertion.test_bst_insertion" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SRUS-TS-Games" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -118,6 +123,7 @@
     </configuration>
     <configuration name="Python tests for player_bst_test.TestBstSearch.test_bst_search" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SRUS-TS-Games" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -133,6 +139,7 @@
     </configuration>
     <configuration name="Python tests in player_bst_test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SRUS-TS-Games" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -194,6 +201,8 @@
       <workItem from="1713449299162" duration="7228000" />
       <workItem from="1713461478491" duration="686000" />
       <workItem from="1713487853169" duration="3917000" />
+      <workItem from="1718699583739" duration="397000" />
+      <workItem from="1718699994534" duration="2917000" />
     </task>
     <servers />
   </component>
