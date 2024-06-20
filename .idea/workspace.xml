@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ecbb33a-39f7-42fc-abda-a1c78b5c4caa" name="Default Changelist" comment="" />
+    <list default="true" id="9ecbb33a-39f7-42fc-abda-a1c78b5c4caa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SRUS-TS-Games.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SRUS-TS-Games.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/player_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/player_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/player_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/player_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/player_list_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/player_list_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/player_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/player_test.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,17 +30,44 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2cfnJHapZmi3dRmtOQK4g0Fqiaq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RunManager" selected="Python tests.Unittests for player_list_test.TestInsertion.test_delete_with_key_removes_item_with_key">
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;fix/assessment-1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/source/repos/SRUS-TS-Games&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Python tests.Python tests in player_test.py">
+    <configuration name="Python tests in player_test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="SRUS-TS-Games" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/player_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for player_list_test.TestInsertion.test_delete_from_head_removes_item_from_head" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="SRUS-TS-Games" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -37,6 +77,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;player_list_test.TestInsertion.test_delete_from_head_removes_item_from_head&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
@@ -51,6 +92,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;player_list_test.TestInsertion.test_delete_from_tail_removes_item_from_tail&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
@@ -65,22 +107,9 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;player_list_test.TestInsertion.test_delete_with_key_removes_item_with_key&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for player_test.TestTheProperties.test_player_attribute_type" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="SRUS-TS-Games" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;player_test.TestTheProperties.test_player_attribute_type&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -93,6 +122,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test/player_list_test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
@@ -100,14 +130,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in player_test.py" />
+        <item itemvalue="Python tests.Unittests in player_list_test.py" />
         <item itemvalue="Python tests.Unittests for player_list_test.TestInsertion.test_delete_with_key_removes_item_with_key" />
         <item itemvalue="Python tests.Unittests for player_list_test.TestInsertion.test_delete_from_tail_removes_item_from_tail" />
         <item itemvalue="Python tests.Unittests for player_list_test.TestInsertion.test_delete_from_head_removes_item_from_head" />
-        <item itemvalue="Python tests.Unittests for player_test.TestTheProperties.test_player_attribute_type" />
-        <item itemvalue="Python tests.Unittests in player_list_test.py" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -118,45 +149,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708511426451</updated>
+      <workItem from="1718900224919" duration="3207000" />
+      <workItem from="1718903481865" duration="72000" />
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="640" y="125" key="#Notifications" timestamp="1708822899805">
-      <screen x="0" y="25" width="1440" height="875" />
-    </state>
-    <state x="640" y="125" key="#Notifications/0.25.1440.875@0.25.1440.875" timestamp="1708822899805" />
-    <state width="675" height="227" key="GridCell.Tab.0.bottom" timestamp="1708877738127">
-      <screen x="0" y="25" width="1440" height="875" />
-    </state>
-    <state width="675" height="227" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1708877738127" />
-    <state width="675" height="227" key="GridCell.Tab.0.center" timestamp="1708877738126">
-      <screen x="0" y="25" width="1440" height="875" />
-    </state>
-    <state width="675" height="227" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1708877738126" />
-    <state width="675" height="227" key="GridCell.Tab.0.left" timestamp="1708877738126">
-      <screen x="0" y="25" width="1440" height="875" />
-    </state>
-    <state width="675" height="227" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1708877738126" />
-    <state width="675" height="227" key="GridCell.Tab.0.right" timestamp="1708877738126">
-      <screen x="0" y="25" width="1440" height="875" />
-    </state>
-    <state width="675" height="227" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1708877738126" />
-    <state width="675" height="282" key="GridCell.Tab.1.bottom" timestamp="1708873895626">
-      <screen x="0" y="25" width="1440" height="875" />
-    </state>
-    <state width="675" height="282" key="GridCell.Tab.1.bottom/0.25.1440.875@0.25.1440.875" timestamp="1708873895626" />
-    <state width="675" height="282" key="GridCell.Tab.1.center" timestamp="1708873895625">
-      <screen x="0" y="25" width="1440" height="875" />
-    </state>
-    <state width="675" height="282" key="GridCell.Tab.1.center/0.25.1440.875@0.25.1440.875" timestamp="1708873895625" />
-    <state width="675" height="282" key="GridCell.Tab.1.left" timestamp="1708873895625">
-      <screen x="0" y="25" width="1440" height="875" />
-    </state>
-    <state width="675" height="282" key="GridCell.Tab.1.left/0.25.1440.875@0.25.1440.875" timestamp="1708873895625" />
-    <state width="675" height="282" key="GridCell.Tab.1.right" timestamp="1708873895626">
-      <screen x="0" y="25" width="1440" height="875" />
-    </state>
-    <state width="675" height="282" key="GridCell.Tab.1.right/0.25.1440.875@0.25.1440.875" timestamp="1708873895626" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SRUS_TS_Games$.coverage" NAME=" Coverage Results" MODIFIED="1718903140621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/SRUS_TS_Games$Unittests_in_player_list_test_py.coverage" NAME="Unittests in player_list_test.py Coverage Results" MODIFIED="1718903105298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
   </component>
 </project>

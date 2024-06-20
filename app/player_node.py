@@ -1,32 +1,37 @@
-class PlayerNode:
-    def __init__(self, player):
-        self._player = player
-        self._next = None
-        self._previous = None
+from typing import Optional
 
-    # player getter
-    def get_player(self):
+from app.player import Player
+
+
+class PlayerNode:
+    def __init__(self, player) -> None:
+        self._player = player
+        self._next: Optional["PlayerNode"] = None
+        self._previous: Optional["PlayerNode"] = None
+
+    @property
+    def player(self) -> Player:
         return self._player
 
-    # next_node setter
-    def next_node(self, node):
-        self._next = node
-
-    # next_node getter
-    def get_next(self):
+    @property
+    def next_node(self) -> Optional["PlayerNode"]:
         return self._next
 
-    # previous_node setter
-    def previous_node(self, node):
-        self._previous = node
+    @next_node.setter
+    def next_node(self, node) -> None:
+        self._next = node
 
-    # previous_node getter
-    def get_previous(self):
+    @property
+    def previous_node(self) -> Optional["PlayerNode"]:
         return self._previous
 
-    # returns uid property of the player instance
-    def key(self):
+    @previous_node.setter
+    def previous_node(self, node) -> None:
+        self._previous = node
+
+    @property
+    def key(self) -> str:
         return self._player.uid
 
-    def __str__(self):
+    def __str__(self) -> str:
         return str(self._player)

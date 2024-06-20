@@ -4,7 +4,7 @@ from app.player_node import PlayerNode
 from app.player import Player
 
 
-class TestInsertion(unittest.TestCase):
+class TestPlayerList(unittest.TestCase):
     def setUp(self):
         self.player_list = PlayerList()
         self.player_1 = Player("103", "Mark")
@@ -14,47 +14,49 @@ class TestInsertion(unittest.TestCase):
 
     def test_insert_node_at_head_when_empty_list(self):
         self.player_list.insert_at_head(self.player_node_1)
-        self.assertEqual(self.player_1, self.player_list._head._player)
+        self.assertIsInstance(self.player_list._head.player, Player)
+        self.assertIs(self.player_list._tail.player, self.player_1)
 
     def test_insert_node_at_head_when_non_empty_list(self):
         self.player_list.insert_at_head(self.player_node_1)
         self.player_list.insert_at_head(self.player_node_2)
 
-        self.assertEqual(self.player_list._head._player, self.player_2)
-        self.assertEqual(self.player_list._head._next._player, self.player_1)
+        self.assertIs(self.player_list._head.player, self.player_2)
+        self.assertIs(self.player_list._head.next_node.player, self.player_1)
+        self.assertIs(self.player_list._tail.player, self.player_1)
 
     def test_tail_holds_value_of_first_item_added_when_insert_node_at_head(self):
         self.player_list.insert_at_head(self.player_node_1)
         self.player_list.insert_at_head(self.player_node_2)
 
-        self.assertEqual(self.player_list._tail._player, self.player_1)
+        self.assertIs(self.player_list._tail.player, self.player_1)
 
     def test_insert_at_tail_when_non_empty_list(self):
         self.player_list.insert_at_tail(self.player_node_1)
         self.player_list.insert_at_tail(self.player_node_2)
 
-        self.assertEqual(self.player_list._tail._player, self.player_2)
+        self.assertIs(self.player_list._tail.player, self.player_2)
 
     def test_delete_from_head_removes_item_from_head(self):
         self.player_list.insert_at_head(self.player_node_1)
         self.player_list.insert_at_head(self.player_node_2)
         self.player_list.delete_at_head()
 
-        self.assertEqual(self.player_list._head._player, self.player_1)
+        self.assertIs(self.player_list._head.player, self.player_1)
 
     def test_delete_from_tail_removes_item_from_tail(self):
         self.player_list.insert_at_tail(self.player_node_1)
         self.player_list.insert_at_tail(self.player_node_2)
         self.player_list.delete_at_tail()
 
-        self.assertEqual(self.player_list._tail._player, self.player_1)
+        self.assertIs(self.player_list._tail.player, self.player_1)
 
     def test_delete_with_key_removes_item_with_key(self):
         self.player_list.insert_at_tail(self.player_node_1)
         self.player_list.insert_at_tail(self.player_node_2)
-        self.player_list.delete_with_key(self.player_node_2)
+        self.player_list.delete_with_key(self.player_node_2.key)
 
-        self.assertEqual(self.player_list._head._player, self.player_1)
+        self.assertIs(self.player_list._head.player, self.player_1)
 
 
 if __name__ == "__main__":
